@@ -1,0 +1,31 @@
+import java.util.*;
+
+class GFG
+{
+
+public static void main(String arg[])
+{
+        int i,j,flag=0;
+	Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = scanner.nextLine();
+
+	for ( i = 0; i < str.length(); i++)
+	       {
+		flag = 0;
+		for (j = 0; j < str.length(); j++)
+		{
+
+			   if (str.charAt(i) == str.charAt(j) && i != j) 
+			{
+				flag = 1;
+				break;
+			}
+		}
+		if (flag == 0)
+			System.out.print("\nThe remaining characters:"+str.charAt(i));
+	    }
+}
+}
+
+
