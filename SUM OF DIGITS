@@ -1,0 +1,16 @@
+import java.util.*;
+class Sum
+{
+    public static void main(String arg[])
+     {
+       int i,sum=0,n;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter the n value:");
+       n=sc.nextInt();
+       for(i=0;i<=n;i++)
+        {
+           sum=sum+i;
+        }
+       System.out.println("Sum of series:"+sum);
+     }
+}
