@@ -3,7 +3,6 @@ class Name
 {
 public static void main(String arg[])
 {
-System.out.println("MY NAME IS AVINASH");
+System.out.println("My Name is Avinash Reddy");
 }
 }
-
